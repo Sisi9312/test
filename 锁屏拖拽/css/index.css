@@ -1,0 +1,39 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+.lockScreen{
+	position:relative;
+	width:100%;
+	background:#ccc;
+	opacity:0.6;
+	overflow:hidden;
+}
+.content{
+	position:absolute;
+	border:1px solid red;
+	width:400px;
+	height:200px;
+	text-align:center;
+	top:50%;
+	left:50%;
+	margin-left:-200px;
+	margin-top:-100px;
+	}
+form{
+	height:140px;
+}
+h3,h4{
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-khtml-user-select: none;   /*早期浏览器*/
+     user-select: none;   
+	width:100%;
+	background:blue;
+	height:30px;
+}
+h3{
+	cursor:move;
+}
