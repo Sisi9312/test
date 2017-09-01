@@ -1,0 +1,32 @@
+*{
+	border:0;
+    padding:0;
+    margin:0;
+}
+.byc{
+	margin:20px;
+	width:200px;
+	border-top:1px solid #000;
+	list-style: none;
+	float:left;
+}
+.byc li{
+	position:relative;
+	width:100%;
+	text-align: center;
+	height:30px;
+	border-bottom:1px dashed #000;
+	overflow: hidden;
+}
+.byc li div{
+	position:absolute;
+	width:100%;
+	height:auto;
+	top:-30px;
+	left:0;
+}
+.byc li div p{
+	width:100%;
+	height:30px;
+	line-height:30px;
+}
