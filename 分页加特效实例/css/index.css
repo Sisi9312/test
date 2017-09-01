@@ -1,0 +1,26 @@
+.content ul{
+	list-style: none;
+}
+.content ul li{
+   float: left;
+   margin:10px;
+   width:500px;
+   height:200px;
+   background: blue;
+}
+#div1{
+	position: relative;
+	text-align:center;
+	 top:500px;
+}
+a{
+	margin:5px;
+	color:#000;
+}
+.clearfix:after{
+	content:'';
+	display: block;
+    height:0;
+    visibility: hidden;
+    clear: both;
+}
